@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+</head>
+<body>
+	<p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">BS</p>
+	<p class="topic">JS</p>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		// let a = document.querySelector('.topic'); //class name
+		// a.innerHTML = '<span>Hyper Text Markup Language</span>';
+		// let b = document.querySelector('li'); //tag name
+		// b.innerText = '<p>Aditya Engineering College</p>';
+		let a = document.querySelectorAll('.topic,li');
+		for (var i = 0; i < a.length; i++) {
+			a[i].style.backgroundColor = 'red'; 
+		}
+
+	</script>
+</body>
+</html>

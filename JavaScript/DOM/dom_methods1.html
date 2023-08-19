@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM METHODS1</title>
+</head>
+<body>
+	<p id="p1">This first para</p>
+	<p id="p2">This second para</p>
+	<img id="img_id" src="Doctor.png" >
+    <script type="text/javascript">
+    	var a = document.getElementsByTagName('img_id');
+
+    </script>
+    <input type="text" name="" id="ins_id" value="sim">
+    <script type="text/javascript">
+    	let ins = document.getElementById('ins_id');
+    	ins.style.borderColor = "red";
+    	ins.style.fontSize = '100px';
+    	ins.value = 'Vinnu';
+    </script>
+    <input type="text" name="c" value="">
+    <script type="text/javascript">
+    	let d = document.getElementById('c');
+    	d.style.border = "thin solid red";
+    </script>
+    <input type="text" name="" id="a" value="Please enter name">
+    <script type="text/javascript">
+    	let b = document.getElementById('a').style.color = "red";
+    </script>
+</body>
+</html>

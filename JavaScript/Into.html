@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro</title>
+</head>
+<body>
+	<h1>Javascript Introduction</h1>
+	<script>
+		// var a = 10;
+		// var b = 20;
+		// var c = 30;
+		// alert(a);
+		// console.log(b);
+		// document.write(c);
+		// document.write("</br> Welcosme to JS </br>")
+		// document.write("A value is",a)
+		// var name = "Vinnu";
+		// document.write(name.length+"<br>")
+		// name += " Vineela";
+		// document.write(name.length);
+		// var name = "Vinnu";
+		// name += " vinnu,lochii";
+		// document.write(name);
+		// var name = "Vinnu vinnu,lochii";
+		// document.write(name);
+		// var a =10;
+		// a = "vinnu"
+		// document.write(typeof(a));
+		// var a = 10.00;
+		// document.write(typeof(a));
+		// var a;
+		// a += "vinnu";
+		// document.write(a);
+
+		// var a = 10;
+		// var name = "vinnu";
+		// var b = true;
+		// var arr = ["Vinnu","3","Lochii","true"];
+		// document.write(typeof(arr));
+
+		// var a = 10;
+		// var name = "vinnu";
+		// var b = true;
+		// var arr = ["Vinnu","3","Lochii","true"];
+		// document.write(arr);
+		// var arr = ["Vinnu","3","Lochii","true"];
+		// console.log(arr);
+		// document.write(arr);
+		// document.write(arr[2]);
+
+		// var arr = ["vinnu","lochii","shiny","sree"];
+		// document.write(arr[2]+" ",arr[3]);
+
+		// var obj = {
+		// 	'name' : 'vinnu',
+		// 	'rollno' : '487',
+		// 	'college' : 'AEC',
+		// 	'branch' : 'ECE'
+		// }
+		// console.log(obj.name,obj.rollno,obj.college,obj.branch);
+
+		// var obj = {
+		// 	'name' : 'vinnu',
+		// 	'rollno' : '487',
+		// 	'college' : 'AEC',
+		// 	'branch' : 'ECE'
+		// }
+		// document.write(obj.name+" ");
+		// document.write(obj.rollno+" ");
+		// document.write(obj.college+" ");
+		// document.write(obj.branch);
+
+		// var obj = {
+		// 	'name' : 'vinnu',
+		// 	'rollno' : '487',
+		// 	'college' : 'AEC',
+		// 	'branch' : 'ECE'
+		// }
+		// console.log(obj.name+" ");
+		// console.log(obj.rollno+" ");
+		// console.log(obj.college+" ");
+		// console.log(obj.branch);
+
+		// var trainees = [{
+		// 	'name' : 'vinnu',
+		// 	'rollno' : '487',
+		// 	'college' : 'AEC',
+		// 	'branch' : 'ECE'
+		// },
+		// {
+		// 	'name' : 'lochii',
+		// 	'rollno' : '4A0',
+		// 	'college' : 'AEC',
+		// 	'branch' : 'ECE'
+		// }]
+		// console.log(trainees)
+		// console.log(trainees[0].name);
+		// console.log(trainees[1].name);
+
+
+		var data = [{
+			'name' : 'vinnu',
+			'rollno' : '487',
+			'college' : 'AEC',
+			'branch' : 'ECE'
+		},
+		{
+			'name' : 'Lochii',
+			'rollno' : '4A0',
+			'college' : 'AEC',
+			'branch' : 'ECE'
+		},
+		{
+			'name' : 'Ammu',
+			'rollno' : '478',
+			'college' : 'AEC',
+			'branch' : 'ECE'
+		},
+		{
+			'name' : 'Devi',
+			'rollno' : '466',
+			'college' : 'AEC',
+			'branch' : 'ECE'
+		},
+		{
+			'name' : 'Rupa',
+			'rollno' : '4D1',
+			'college' : 'AEC',
+			'branch' : 'ECE'
+		}]
+		// for (var i = 0; i < data.length; i++) {
+		// 	// data[i]
+		// console.log(data)
+		// console.log(i+1,data[i].name)
+		// }
+		for (var i=0;i<data.length;i++){
+			for (var key in data[i]){
+				document.write(data[i][key])
+			}
+			document.write("<br>");
+		}
+
+
+
+
+	</script>
+</body>
+<!-- <script type="text/javascript" src="Intro.js"></script> -->
+</html>

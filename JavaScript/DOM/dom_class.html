@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+</head>
+<body>
+	<p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">BS</p>
+	<p class="topic">JS</p>
+	<script type="text/javascript">
+		let s = document.getElementsByClassName('topic');
+		s[0].innerHTML = 'hyper text markup language';
+		s[0].style.color = "red";
+		s[2].innerHTML = 'Bootstrap';
+		s[2].style.color = "green";
+	</script>
+</body>
+</html>
